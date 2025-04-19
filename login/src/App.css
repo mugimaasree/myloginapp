@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-page {
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.76);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.nav-links li:hover {
+  color: #0ea5e9;
+  cursor: pointer;
+}
+
+.nav-login-btn {
+  background-color: white;
+  color: black;
+  padding:2px 2px;
+  font-size:16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-login-btn:hover {
+  background-color: #0ea5e9;
+  color: white;
+}
+
+.login-container {
+  
+  height: 100%;
+  margin: 20px 30%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.login-box {
+  padding:15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom:5px;
+  font-size: 1.4rem;
+}
+
+.login-box p {
+  text-align: center;
+  margin-bottom:5px;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 0.6rem 0.75rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0ea5e9;
+}
+
+.forgot {
+  font-size: 0.8rem;
+  text-align: right;
+  color: #0ea5e9;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 0.6rem;
+  background-color: #0ea5e9;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0284c7;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.signup-link a {
+  color: #0ea5e9;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
